@@ -23,14 +23,14 @@
 	* [并发](https://github.com/leijiang/qa/blob/master/README.md#并发)
 
 * [git基础](https://github.com/leijiang/qa/blob/master/README.md#git基础)
-	* [Git分支管理策略](https://github.com/leijiang/qa/blob/master/README.md#Git分支管理策略)
-	* [Git工作流程](https://github.com/leijiang/qa/blob/master/README.md#Git工作流程)
-	* [Git远程操作详解](https://github.com/leijiang/qa/blob/master/README.md#Git远程操作详解)
+	* [git分支管理策略](https://github.com/leijiang/qa/blob/master/README.md#git分支管理策略)
+	* [git工作流程](https://github.com/leijiang/qa/blob/master/README.md#git工作流程)
+	* [git远程操作详解](https://github.com/leijiang/qa/blob/master/README.md#git远程操作详解)
 
 * [maven基础](https://github.com/leijiang/qa/blob/master/README.md#maven基础)
-	* [Maven入门介绍](https://github.com/leijiang/qa/blob/master/README.md#Maven入门介绍)
-	* [Maven实战之初识Maven](https://github.com/leijiang/qa/blob/master/README.md#Maven实战之初识Maven)
-	* [Maven的基本使用](https://github.com/leijiang/qa/blob/master/README.md#Maven的基本使用)
+	* [maven入门介绍](https://github.com/leijiang/qa/blob/master/README.md#maven入门介绍)
+	* [maven实战之初识Maven](https://github.com/leijiang/qa/blob/master/README.md#maven实战之初识Maven)
+	* [maven的基本使用](https://github.com/leijiang/qa/blob/master/README.md#maven的基本使用)
     * [两小时从零到了解](https://github.com/leijiang/qa/blob/master/README.md#两小时从零到了解)
 
 * [android开发](https://github.com/leijiang/qa/blob/master/README.md#android开发)
