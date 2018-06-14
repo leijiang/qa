@@ -141,11 +141,8 @@
 ## android开发
 * [《视频教程》](https://pan.baidu.com/s/1Q1fSqikE7AiataTaLQYwpg#list/path=%2F)
 
-
 ## android自动化测试
 * [《android自动化测试视频教程》](https://pan.baidu.com/s/1Ghftr611cEzLFxYSFr0_FA)
-
-
 
 ## appium教程
 * [《appium教程视频教程》](https://pan.baidu.com/s/1t7PAnkvVPOo5vjIE2jxy3w)
