@@ -28,10 +28,11 @@
 
 ## 对象导论
 * [《对象导论》](https://blog.csdn.net/wang_chaunwang/article/details/79893480)
-    * 这个地方简单理解对象,就是一个实体,有行为(方法)跟状态(属性)
+    * 这个地方简单理解对象,就是一个实体,有行为(方法)跟状态(属性),拿人这个对象来举例子,人跑步是方法,人的年龄是状态
 
 ## 一切都是对象
 * [《一切都是对象》](https://blog.csdn.net/wang_chaunwang/article/details/79915755)
+    * 主要是一种思想,面对对象的思想,区别与面向过程而言,面向对象三个特征:封装(逻辑对外不可见,) 继承(儿子继承老子) 多态 (这个有点复杂,就理解为程序运行时候的动态绑定吧)
 
 ## 操作符
 * [《操作符》](https://blog.csdn.net/wang_chaunwang/article/details/79923394)
@@ -41,6 +42,7 @@
 
 ## 访问权限控制
 * [《访问权限控制》](https://blog.csdn.net/wang_chaunwang/article/details/79947951)
+    * 主要是权限的访问,private 只有自己类的成员可以访问 protected 类自己跟子类可以访问  public 谁都可以访问
 
 ## 复用类
 * [《复用类》](https://blog.csdn.net/wang_chaunwang/article/details/79958084)
@@ -50,6 +52,7 @@
 
 ## 接口
 * [《接口》](https://blog.csdn.net/wang_chaunwang/article/details/80015761)
+    * 简单理解为能力好了,鸟可以飞翔,飞翔就是一种能力;
 
 ## 内部类
 * [《内部类》](https://blog.csdn.net/wang_chaunwang/article/details/80027505)
@@ -68,16 +71,21 @@
 
 ## 泛型
 * [《泛型》](https://blog.csdn.net/wang_chaunwang/article/details/80141419)
+    * 举个例子,用个列表存储整数 ,用个列表存储字符串 可以分别声明 ,List<Integer> List<String> 实际上都是List  列表
+    * java泛型 在运行时是擦除的,这个注意下
 
 ## 数组
 * [《数组》](https://blog.csdn.net/wang_chaunwang/article/details/80141577)
 
 ## Java I/O系统
 * [《Java I/O系统》](https://blog.csdn.net/wang_chaunwang/article/details/80141939)
+    * 主要是读取文件
 
 ## 注解
 * [《注解》](https://blog.csdn.net/wang_chaunwang/article/details/80148352)
+    * 简单理解就是做标记,做一些元数据的信息补充
 
 ## 并发
 * [《并发》](https://blog.csdn.net/wang_chaunwang/article/details/80165133)
+    * 这个比较复杂,主要是多线程的场景,多个线程对共享资源操作,容易出现问题,需要进行同步解决
 
