@@ -22,6 +22,18 @@
 	* [注解](https://github.com/leijiang/qa/blob/master/README.md#注解)
 	* [并发](https://github.com/leijiang/qa/blob/master/README.md#并发)
 
+* [git基础](https://github.com/leijiang/qa/blob/master/README.md#git基础)
+	* [Git分支管理策略](https://github.com/leijiang/qa/blob/master/README.md#Git分支管理策略)
+	* [Git工作流程](https://github.com/leijiang/qa/blob/master/README.md#Git工作流程)
+	* [Git远程操作详解](https://github.com/leijiang/qa/blob/master/README.md#Git远程操作详解)
+
+
+* [maven基础](https://github.com/leijiang/qa/blob/master/README.md#maven基础)
+	* [Maven入门介绍](https://github.com/leijiang/qa/blob/master/README.md#Maven入门介绍)
+	* [Maven实战之初识Maven](https://github.com/leijiang/qa/blob/master/README.md#Maven实战之初识Maven)
+	* [Maven的基本使用](https://github.com/leijiang/qa/blob/master/README.md#Maven的基本使用)
+    * [两小时从零到了解](https://github.com/leijiang/qa/blob/master/README.md#两小时从零到了解)
+
 
 
 # java基础
@@ -88,4 +100,30 @@
 ## 并发
 * [《并发》](https://blog.csdn.net/wang_chaunwang/article/details/80165133)
     * 这个比较复杂,主要是多线程的场景,多个线程对共享资源操作,容易出现问题,需要进行同步解决
+
+
+# git基础
+
+## Git分支管理策略
+* [《Git分支管理策略》](http://www.ruanyifeng.com/blog/2012/07/git.html)
+
+## Git工作流程
+* [《Git工作流程》](http://www.ruanyifeng.com/blog/2015/12/git-workflow.html)
+
+## Git远程操作详解
+* [《Git远程操作详解》](http://www.ruanyifeng.com/blog/2014/06/git_remote.html)
+
+# maven基础
+
+## Maven入门介绍
+* [《Maven入门介绍》](https://www.jianshu.com/p/39875424be3c)
+
+## Maven实战之初识Maven
+* [《Maven实战之初识Maven》](https://www.jianshu.com/p/0ebebab8d413)
+
+## Maven的基本使用
+* [《Maven的基本使用》](https://www.jianshu.com/p/6494be5582df)
+
+## 两小时从零到了解
+* [《两小时从零到了解》](https://www.jianshu.com/p/78c16fc600a9)
 
