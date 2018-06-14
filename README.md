@@ -34,13 +34,13 @@
     * [两小时从零到了解](https://github.com/leijiang/qa/blob/master/README.md#两小时从零到了解)
 
 * [android开发](https://github.com/leijiang/qa/blob/master/README.md#android开发)
-    * [视频教程](https://github.com/leijiang/qa/blob/master/README.md#视频教程)
+    * [android开发](https://github.com/leijiang/qa/blob/master/README.md#视频教程)
 
 * [android自动化测试](https://github.com/leijiang/qa/blob/master/README.md#android开发)
-    * [android自动化测试视频教程](https://github.com/leijiang/qa/blob/master/README.md#android自动化测试视频教程)
+    * [android自动化测试](https://github.com/leijiang/qa/blob/master/README.md#android自动化测试视频教程)
 
 * [appium教程](https://github.com/leijiang/qa/blob/master/README.md#appium教程)
-    * [appium教程视频教程](https://github.com/leijiang/qa/blob/master/README.md#appium教程视频教程)
+    * [appium教程](https://github.com/leijiang/qa/blob/master/README.md#appium教程视频教程)
 
 
 
@@ -136,10 +136,10 @@
 * [《两小时从零到了解》](https://www.jianshu.com/p/78c16fc600a9)
 
 ## android开发
-* [《视频教程》](https://pan.baidu.com/s/1Q1fSqikE7AiataTaLQYwpg#list/path=%2F)
+* [《android开发》](https://pan.baidu.com/s/1Q1fSqikE7AiataTaLQYwpg#list/path=%2F)
 
 ## android自动化测试
-* [《android自动化测试视频教程》](https://pan.baidu.com/s/1Ghftr611cEzLFxYSFr0_FA)
+* [《android自动化测试》](https://pan.baidu.com/s/1Ghftr611cEzLFxYSFr0_FA)
 
 ## appium教程
-* [《appium教程视频教程》](https://pan.baidu.com/s/1t7PAnkvVPOo5vjIE2jxy3w)
+* [《appium教程》](https://pan.baidu.com/s/1t7PAnkvVPOo5vjIE2jxy3w)
