@@ -18,7 +18,7 @@
 	* [类型信息](https://github.com/leijiang/qa/blob/master/README.md#类型信息)
 	* [泛型](https://github.com/leijiang/qa/blob/master/README.md#泛型)
 	* [数组](https://github.com/leijiang/qa/blob/master/README.md#数组)
-	* [Java IO系统](https://github.com/leijiang/qa/blob/master/README.md#Java IO系统)
+	* [JavaIO系统](https://github.com/leijiang/qa/blob/master/README.md#JavaIO系统)
 	* [注解](https://github.com/leijiang/qa/blob/master/README.md#注解)
 	* [并发](https://github.com/leijiang/qa/blob/master/README.md#并发)
 
