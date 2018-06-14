@@ -29,7 +29,7 @@
 
 * [maven基础](https://github.com/leijiang/qa/blob/master/README.md#maven基础)
 	* [maven入门介绍](https://github.com/leijiang/qa/blob/master/README.md#maven入门介绍)
-	* [maven实战之初识Maven](https://github.com/leijiang/qa/blob/master/README.md#maven实战之初识Maven)
+	* [maven实战之初识Maven](https://github.com/leijiang/qa/blob/master/README.md#maven实战之初识maven)
 	* [maven的基本使用](https://github.com/leijiang/qa/blob/master/README.md#maven的基本使用)
     * [两小时从零到了解](https://github.com/leijiang/qa/blob/master/README.md#两小时从零到了解)
 
