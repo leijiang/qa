@@ -1,7 +1,7 @@
 
 <h1>《客户测试工程师技术成长路线》</h1>
 
-**更新于20180614**
+**更新于20180614 by leijiang**
 * [java基础](https://github.com/leijiang/qa/blob/master/README.md#java基础)
 	* [对象导论](https://github.com/leijiang/qa/blob/master/README.md#对象导论)
 	* [一切都是对象](https://github.com/leijiang/qa/blob/master/README.md#一切都是对象)
@@ -18,7 +18,7 @@
 	* [类型信息](https://github.com/leijiang/qa/blob/master/README.md#类型信息)
 	* [泛型](https://github.com/leijiang/qa/blob/master/README.md#泛型)
 	* [数组](https://github.com/leijiang/qa/blob/master/README.md#数组)
-	* [JavaI/O系统](https://github.com/leijiang/qa/blob/master/README.md#Java I/O系统)
+	* [JavaIO系统](https://github.com/leijiang/qa/blob/master/README.md#Java I/O系统)
 	* [注解](https://github.com/leijiang/qa/blob/master/README.md#注解)
 	* [并发](https://github.com/leijiang/qa/blob/master/README.md#并发)
 
