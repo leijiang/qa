@@ -2,6 +2,8 @@
 <h1>《客户测试工程师技术成长路线》</h1>
 
 **更新于20180614 by leijiang**
+* [一堆废话](https://github.com/leijiang/qa/blob/master/README.md#一堆废话)
+
 * [java基础](https://github.com/leijiang/qa/blob/master/README.md#java基础)
 	* [对象导论](https://github.com/leijiang/qa/blob/master/README.md#对象导论)
 	* [一切都是对象](https://github.com/leijiang/qa/blob/master/README.md#一切都是对象)
@@ -43,6 +45,13 @@
     * [appium教程](https://github.com/leijiang/qa/blob/master/README.md#appium教程)
 
 
+
+# 一堆废话
+ * 开始之前先说点废话,先申明下下面这个只是我学习一门技术的方法,并不是对每个人都适用,
+   学习一门新东西的过程是理解三个W的过程,what、how、why
+   * what:首先不用要求了解其原理,`快速`需要知道ta是什么,解决什么一类问题,基本怎么使用的,这个阶段一般找些quick start文档或者tutorial 教程
+   * how:这个阶段对新技术有一定了解了,需要结合详细的教程,阅读完整的教材书籍,详细掌握其用法及掌握api,能熟练掌握
+   * why:这个阶段是深入理解了,知其然,知其所以然,了解其原理,能对比跟类似的其他解决方案的有缺点
 
 # java基础
 
