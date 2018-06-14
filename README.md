@@ -34,13 +34,13 @@
     * [两小时从零到了解](https://github.com/leijiang/qa/blob/master/README.md#两小时从零到了解)
 
 * [android开发](https://github.com/leijiang/qa/blob/master/README.md#android开发)
-    * [android开发](https://github.com/leijiang/qa/blob/master/README.md#视频教程)
+    * [android开发](https://github.com/leijiang/qa/blob/master/README.md#android开发)
 
 * [android自动化测试](https://github.com/leijiang/qa/blob/master/README.md#android开发)
-    * [android自动化测试](https://github.com/leijiang/qa/blob/master/README.md#android自动化测试视频教程)
+    * [android自动化测试](https://github.com/leijiang/qa/blob/master/README.md#android自动化测试)
 
 * [appium教程](https://github.com/leijiang/qa/blob/master/README.md#appium教程)
-    * [appium教程](https://github.com/leijiang/qa/blob/master/README.md#appium教程视频教程)
+    * [appium教程](https://github.com/leijiang/qa/blob/master/README.md#appium教程)
 
 
 
