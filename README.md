@@ -123,13 +123,13 @@
 
 # maven基础
 
-## Maven入门介绍
+## maven入门介绍
 * [《Maven入门介绍》](https://www.jianshu.com/p/39875424be3c)
 
-## Maven实战之初识Maven
+## maven实战之初识Maven
 * [《Maven实战之初识Maven》](https://www.jianshu.com/p/0ebebab8d413)
 
-## Maven的基本使用
+## maven的基本使用
 * [《Maven的基本使用》](https://www.jianshu.com/p/6494be5582df)
 
 ## 两小时从零到了解
