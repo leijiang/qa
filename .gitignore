@@ -1,0 +1,15 @@
+.idea/*
+*/target/*
+target/*
+*.iml
+*.DS_Store
+rebel.xml
+*/logs/
+*.log
+*.data
+web/src/main/webapp/WEB-INF/pagani/
+discoverclient
+/local_config.properties
+_mac/*
+/logs/
+/service/_abtestcache/
