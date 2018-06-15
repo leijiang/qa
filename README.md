@@ -1,5 +1,5 @@
 
-<h1>《客户测试工程师技术成长路线》</h1>
+<h1>《客户端测试工程师技术成长路线》</h1>
 
 **更新于20180614 by leijiang**
 * [一堆废话](https://github.com/leijiang/qa/blob/master/README.md#一堆废话)
