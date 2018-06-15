@@ -20,7 +20,7 @@
 	* [类型信息](https://github.com/leijiang/qa/blob/master/README.md#类型信息)
 	* [泛型](https://github.com/leijiang/qa/blob/master/README.md#泛型)
 	* [数组](https://github.com/leijiang/qa/blob/master/README.md#数组)
-	* [JavaIO系统](https://github.com/leijiang/qa/blob/master/README.md#JavaIO系统)
+	* [io系统](https://github.com/leijiang/qa/blob/master/README.md#io系统)
 	* [注解](https://github.com/leijiang/qa/blob/master/README.md#注解)
 	* [并发](https://github.com/leijiang/qa/blob/master/README.md#并发)
 
@@ -106,8 +106,8 @@
 ## 数组
 * [《数组》](https://blog.csdn.net/wang_chaunwang/article/details/80141577)
 
-## Java I/O系统
-* [《Java I/O系统》](https://blog.csdn.net/wang_chaunwang/article/details/80141939)
+## io系统
+* [《io系统》](https://blog.csdn.net/wang_chaunwang/article/details/80141939)
     * 主要是读取文件
 
 ## 注解
