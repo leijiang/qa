@@ -43,8 +43,13 @@
 
 * [appium教程](https://github.com/leijiang/qa/blob/master/README.md#appium教程)
     * [appium教程](https://github.com/leijiang/qa/blob/master/README.md#appium教程)
+    
+* [appium基础](https://github.com/leijiang/qa/blob/master/README.md#appium基础)
+    * [appium文档](https://github.com/leijiang/qa/blob/master/README.md#appium文档)
 
 
+* [测试汇总](https://github.com/leijiang/qa/blob/master/README.md#测试汇总)
+    * [文档教程](https://github.com/leijiang/qa/blob/master/README.md#文档教程)      
 
 # 一堆废话
  * 开始之前先说点废话,先申明下下面这个只是我学习一门技术的方法,并不是对每个人都适用,
@@ -152,3 +157,9 @@
 
 ## appium教程
 * [《appium教程》](https://pan.baidu.com/s/1t7PAnkvVPOo5vjIE2jxy3w)
+
+## appium基础
+* [《appium文档》](http://www.testclass.net/appium/)
+
+## 测试汇总
+* [《文档教程》](http://www.testclass.net/)
