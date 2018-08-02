@@ -47,7 +47,6 @@
 * [appium基础](https://github.com/leijiang/qa/blob/master/README.md#appium基础)
     * [appium文档](https://github.com/leijiang/qa/blob/master/README.md#appium文档)
 
-
 * [测试汇总](https://github.com/leijiang/qa/blob/master/README.md#测试汇总)
     * [文档教程](https://github.com/leijiang/qa/blob/master/README.md#文档教程)      
 
@@ -159,7 +158,7 @@
 * [《appium教程》](https://pan.baidu.com/s/1t7PAnkvVPOo5vjIE2jxy3w)
 
 ## appium基础
-* [appium文档](http://www.testclass.net/appium)
+* [《appium文档》](http://www.testclass.net/appium)
 
 ## 测试汇总
-* [文档教程](http://www.testclass.net)
+* [《文档教程》](http://www.testclass.net)
