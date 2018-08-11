@@ -82,7 +82,7 @@ appium.target.device.name=iPhone6s
 appium.ios.version=9.2
 appium.android.version=
 		* #mogujie app related setting
-mogujie.ios.simulator=/Users/yuanfei/package/Mogujie4iphone.zip
+mogujie.ios.simulator=/Users/qianqian/package/Mogujie4iphone.zip
 mogujie.android.simulator=
 mogujie.ios.device=
 mogujie.android.device=
