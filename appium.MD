@@ -39,7 +39,7 @@
 *	下载Android SDK
 *	安装 appium Server 
 	*	window环境，下载AppiumForWindows_1_4_16_1.zip ，
-	*	安装完成后，命令控制台输入appium-doctor ![appium Server](http://otfah9orz.bkt.clouddn.com/appium_server_environment.png) 
+	*	安装完成后，命令控制台输入appium-doctor ![appium Server](https://s33.postimg.cc/94juvshj1/Wechat_IMG1.png?dl=1) 
 		* 备注： appium-doctor 是环境诊断命令，如果运行如图就是按照ok的，如果提示：“appium-doctor”不是内部或外部命令，找到Appium的安装目录，添加到环境变量path下面（参考Java环境的设置）
 * java-client安装 （java 客户端）
 	*	安装Java 环境
