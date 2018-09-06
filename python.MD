@@ -13,6 +13,8 @@
         *    Cookbook 菜谱的意思，就是个工具书；入门的
  *  wxpython相关
     *   [wxPython实战(中文版）高清](ebook/wxPython实战.pdf)
+    *   [RobotFramework自动化测试修炼宝典版.pdf）高清](ebook/RobotFramework自动化测试修炼宝典版.pdf)
+    
     *   这本书是manning出版社出版的，manning出版社出版的书籍特别喜欢叫做《xx in action 》中文名字就叫做xx实战 
  #####  python相关视频教程 （视频很赞，周莫烦，就是之前录git 教程的那个哥们，台湾人貌似）
  *  [教学教程tutorial](https://v.youku.com/v_show/id_XMTU4Mjg2Njg4MA==.html?spm=a2hzp.8253876.0.0&f=27312381) 
