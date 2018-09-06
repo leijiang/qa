@@ -1,7 +1,7 @@
 ####    python教程
 ####    学习计划 <strong>重要</strong><strong>重要</strong><strong>重要</strong>
 *   先看视频 python相关视频教程，理论上python就算学完了，我看了大概有36个课时；够了，不用看书了；
-*   再学习Robot Framework教程
+*   再学习Robot Framework教程  (Robot Framework 视频教程)
 *   Python基础教程（第3版) 这个有时间再看，没时间就算了；
 #####   python 相关书籍
  *  python 相关
