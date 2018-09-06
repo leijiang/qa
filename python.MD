@@ -19,6 +19,9 @@
  
  ####   Robot Framework教程
  #####  Robot Framework 文章教程
- *  [Robot Framework 文章教程]( http://www.testclass.net/rf/) 
+ *  [Robot Framework 文章教程](http://www.testclass.net/rf/) 
+  #####  Robot Framework 视频教程
+ *  [Robot Framework 视频教程](https://study.163.com/course/courseMain.htm?courseId=1004056051) 
+
  
  
