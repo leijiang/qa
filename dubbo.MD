@@ -36,7 +36,7 @@
 
 
 *	dubbo类似框架有哪些
->grpc 、tesa 、hsf
+>grpc 、telsa 、hsf
 ####	dubbo 自动化测试
 ####	基于telnet的调用
 >这个是dubbo内部基于telnet协议（平时调用是dubbo协议）实现的调用，好处是直接使用命令行形式，不依赖第三方的API包，简单；python的dubbo的自动化测试 就是基于这个来写的～
