@@ -1,6 +1,6 @@
 ###	基于telnet 的dubbo接口自动化测试 
 ####	什么是telnet
->Telnet协议是TCP/IP协议的其中一部分，是Internet远程登陆服务的标准协议；好比ssh 也是远程登录方式的一种，只是协议不同，所谓协议简单理解就是双方约定好的了，他的通信方式是这样的
+>Telnet协议是TCP/IP协议的其中一部分，是Internet远程登陆服务的标准协议；好比ssh 也是远程登录方式的一种，只是协议不同，所谓协议简单理解就是双方约定好了的契约，他的通信方式是这样的
 ![telnet通信](https://gss3.bdstatic.com/7Po3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike72%2C5%2C5%2C72%2C24/sign=ab66ce1e1bd8bc3ed2050e98e3e2cd7b/a08b87d6277f9e2fc0ef662c1d30e924b899f338.jpg)
 
 ####	telnet 怎么使用
