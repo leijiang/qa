@@ -24,7 +24,7 @@ dubbo 在内部对客户端使用tenlet 传递到duubo 的telnet 每条命令都
 ```bash
 telnet 10.177.34.203 20881
 ```
-这里的`10.177.34.203` 是我的dubbo provider 就是dubbo 服务提供者服务器，再说一次dubbo 服务提供者服务器，不是zk 服务器 ，不是consumer 服务器 ；`20881`  是dubbo 服务暴露端口
+这里的`10.177.34.203` 是我的dubbo provider 就是dubbo 服务提供者服务器，再说一次dubbo 服务提供者服务器，不是zk 服务器 ，不是consumer 服务器 ；这个地方再多说句，看下你本地是否能ping通这个服务器，ping不通，下面的说的都白搭，ping不通的话要么到跳板机上去运行，要么本地链接vpn，`20881`  是dubbo 服务暴露端口
 
 ```bash
 ls
