@@ -40,7 +40,7 @@ com.netease.kaola.distmerchant.check.api.CheckApiFacade 是指服务的具体完
 再说最重要的一个命令`invoke`调用
 
 ```bash
-invoke com.netease.kaola.distmerchant.check.api.CheckApiFacade.queryOrderByOrderId({"orderId": "2018070419130000702273913"})
+invoke com.netease.kaola.distmerchant.check.api.CheckApiFacade.queryOrderByOrderId("2018070419130000702273913")
 ```
 ![ls](https://haitao.nos.netease.com/107030aa-d110-4012-b2cb-df4840b0d062_2878_372.png)
 
