@@ -47,7 +47,7 @@ invoke com.netease.kaola.distmerchant.check.api.CheckApiFacade.queryOrderByOrder
 更多其他的命令，放这了[dubbo telnet 命令](http://alibaba.github.io/dubbo-doc-static/Telnet+Command+Reference-zh-showComments=true&showCommentArea=true.htm)，不过估计也不会看～～
 
 ####	使用python脚本基于telnet 进行dubbo自动化测试
->python 有个telnetlib的包 （这个跟dubbo 调用没毛关系），里面把telnet 怎么建立连接，怎么发送命令用python API 的方式提供了，简单的说就是利用python 代码来调用telnet，不用在命令行里面去敲了，然后我封装的那个基于telnet的dubbo 自动化测试，原理也比较简单，因为本身dubbo对telnet 命令进行了解析支持，再使用这个telnetlib 包进行dubbo telnet 建立链接、发送命令（查看服务、调用）就可以了，然后拿到telnet 的返回值，实际上就是dubbo调用服务的结果了，工具代码我放在了[dubbo 自动化](https://github.com/leijiang/qa/tree/master/dubbo) 了，其中[telnetlib 安装](https://github.com/leijiang/qa/tree/master/dubbo/install.sh) 是telnetlib 安装 命令，如果本地有就算了，没有的话 ，运行的sh 进行安装，（ps ： 知道怎么看 安装么有么？哎 ....,打开命令工具
+>python 有个telnetlib的包 （这个跟dubbo 调用没毛关系），里面把telnet 怎么建立连接，怎么发送命令用python API 的方式提供了，简单的说就是利用python 代码来调用telnet，不用在命令行里面去敲了，然后我封装的那个基于telnet的dubbo 自动化测试，原理也比较简单，因为本身dubbo对telnet 命令进行了解析支持，再使用这个telnetlib 包进行dubbo telnet 建立链接、发送命令（查看服务、调用）就可以了，然后拿到telnet 的返回值，实际上就是dubbo调用服务的结果了，工具代码我放在了[dubbo 自动化](https://github.com/leijiang/qa/tree/master/dubbo) 了，其中[install.sh](https://github.com/leijiang/qa/tree/master/dubbo/install.sh) 是telnetlib 安装 命令，如果本地有就算了，没有的话 ，运行的sh 进行安装，（ps ： 知道怎么看 安装么有么？哎 ....,打开命令工具
 
 ![dubbo telnet 命令](https://haitao.nos.netease.com/f3c995cf-69c1-4485-a723-5b0978a4d421_2874_396.png)
 这两步都没出错，恭喜你 ，安装成功了～
