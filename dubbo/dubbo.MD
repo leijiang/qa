@@ -29,7 +29,7 @@ telnet 10.177.34.203 20881
 ```bash
 ls
 ```
-建立连接过后，使用ls查看这台服务器保留的dubbo服务有哪些
+建立连接过后，使用ls查看这台服务器暴露的dubbo服务有哪些
 ![ls](https://haitao.nos.netease.com/bb6059cc-3260-44cc-9ef9-49ffccd93e37_2578_902.png)
 ```bash
 ls com.netease.kaola.distmerchant.check.api.CheckApiFacade
