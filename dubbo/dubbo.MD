@@ -37,7 +37,7 @@ ls com.netease.kaola.distmerchant.check.api.CheckApiFacade
 ls  服务器完整名，可以查个这个服务下具体的dubbo接口有哪些
 com.netease.kaola.distmerchant.check.api.CheckApiFacade 是指服务的具体完整名称，譬如：
 ![ls](https://haitao.nos.netease.com/b1a71300-f490-43ba-ad6a-c3af3b0c3a24_1998_346.png)
-再说最重要的一个如果调用
+再说最重要的一个命令`invoke`调用
 
 ```bash
 invoke com.netease.kaola.distmerchant.check.api.CheckApiFacade.queryOrderByOrderId({"orderId": "2018070419130000702273913"})
