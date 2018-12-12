@@ -40,6 +40,14 @@ class Dubbo(telnetlib.Telnet,object):
 if __name__ == '__main__':
     conn = Dubbo('10.177.34.203', 20881)
     params = "2018070419130000702273913"
+    """
+    再多说一句，如果参数是复杂类型，这个地方就是这样了
+    params = {
+        "name":"leijiang"
+        "age":18
+    }
+    """
+
     result = conn.invoke(
         "com.netease.kaola.distmerchant.check.api.CheckApiFacade",
         "queryOrderByOrderId",
