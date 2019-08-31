@@ -1,5 +1,6 @@
 ### 杂七杂八一些整理
 ######   Robot Framework是什么? 什么是关键字驱动测试？
+>网上都是千遍一律的上来就说rf怎么搭建怎么使用，竟然没有人能把rf 说清楚，除了下面这篇文章，让人有点惊讶。
 >https://blog.csdn.net/ojiawang/article/details/51476280
 
 ######   Robot Framework  和 Appium 是什么关系，是怎么联系起来的？
