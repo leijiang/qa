@@ -5,7 +5,11 @@
 >https://www.open-open.com/ppt/a51d1092d1f84e85b7003ae4edd43e65.html
 
 ######   Robot Framework  和 Appium 是什么关系，是怎么联系起来的？
-> 
+> 把一个自动化框架比喻为一台运作的车子，编写测试用例（Robot Framework 里面编写测试用例估计比较容易或者轻松）的工程师是驾驶员，真正执行测试用例的 test libraries 是发动机，那么把驾驶员的意图传动到发动机的就是 Robot Framework，无论是认为他是解释层，胶水层，还是xxx都好，他的作用很明显，你要把握下方向盘，踩踩油门或者刹车，就能运作的很好了，当然记得遵守交规。
+  
+>  robotframework+appium 中的 Appium 就是一个发动机。其实你了解 robotframework 的话，你应该知道他有不同的发动机，比如 Webdriver，比如数据库连接，反正很多就是了。
+  
+ > 接着轮到 Appium，Appium 本身可以成为一个自动化框架，也就是说他本身也是一台可以运作的车子（需要 xunit 的支持），你可以使用各种 bindings 来写测试脚本，然后通过 Webdriver protocol 和 Appium Server 交互， Appium Server 则驱动各种driver 去干活。
 >https://testerhome.com/topics/5131#reply-44405
 
 ######   github上面的一些资料
