@@ -13,7 +13,8 @@
 >这个地方要特别注意的一点是RF 跟客户端测试没毛关系，不管是android 、ios 还是pc、h5 ，还是接口测试、web页面测试等等（他提供了关键字的方式录入测试用例、rf 框架会去回去解析、管理、并且运行这些case，没有与任何平台做绑定）
 >但是具体去做事呢，可能需要别的组件来做，比方说我要做客户端测试这时我需要appium ，就需要针对appium 这个库或者组件模块封装rf关键字 提供给脚本编写者使用（如果用appium的话，如果用monkey什么的另说），那我就需要调用appium ，我需要针对appium开发关键字，这个关键字叫技术关键字
 >（关键字是分层的知道吧，不知道的话自己去看哈，我还是说下吧，分高级关键字、低级关键字、和技术关键字,高级关键字是油低级关键字构成，更多描述一个场景，比方说登陆，登陆由打开浏览器、输入用户名密码、提交三个步骤或者关键字组成，技术关键字就是具体实现了）
->类似这样的一些库，![设计分层](/images/WechatIMG2.jpeg)，要是我没猜错的话，这些库都是给rf 封装关键字的；Appium Library 是封装Appium 库的 rf关键字的，
+>类似这样的一些库
+>![设计分层](/images/WechatIMG2.jpeg)，要是我没猜错的话，这些库都是给rf 封装关键字的；Appium Library 是封装Appium 库的 rf关键字的，
  > robotframework-excellib 是 封装excel操作库 rf关键字的、robotframework-seleniumlibrary  是 封装selenium操作库 rf关键字的 （浏览器操作），运行的时候 rf回去解析这些关键字，调用具体的库去做具体的事情，调用appium 去做客户端测试、调用excel去做excel读写，调用selenium 去做浏览器打开、关闭、访问网页或者网页元素；
 *   https://testerhome.com/topics/5131#reply-44405
 
