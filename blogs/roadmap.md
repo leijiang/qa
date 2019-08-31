@@ -20,6 +20,9 @@
 >https://github.com/githublitao/api_automation_test
 
 ######  讯飞脚本
->讯飞那个脚本我简单看下了，我理解的是，就是做了一部分的自动化，之前是每次手动获取获取设备名和版本，
-然后在命令行中执行adb命令链接上server再来执行一堆case，当然这堆case 还是rf录入的，被定义成立用户自定义关键字了
->参考这篇文章https://blog.csdn.net/u012874222/article/details/79485222
+>讯飞那个脚本我简单看下了，如果你要是理解了https://www.open-open.com/ppt/a51d1092d1f84e85b7003ae4edd43e65.html 这篇ppt说的内容你就理解了，
+![设计分层](/images/WechatIMG1.jpeg)
+>rf 测试设计是分层的：1） 描述层（写用例，不需要了解关键字以及关键字的实现） 2）实现层（需要熟悉关键字和rf 语法） 3）驱动层 （关键字的实现）
+>讯飞这个包里面我看了 什么Lib结尾的就是<strong style='color:read'>关键字的实现</strong>，所以一定是开发的人写的，相当于开发测试库
+>多说一句，我觉得要是做自动化测试，至少2、3 层都要会写，1）2）层都是在使用 ，算不上自动化测试，就是用table 、xml、html的方式写用例
+>
