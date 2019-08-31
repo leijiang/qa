@@ -6,10 +6,15 @@
 
 ######   Robot Framework  和 Appium 是什么关系，是怎么联系起来的？
 > 把一个自动化框架比喻为一台运作的车子，编写测试用例（Robot Framework 里面编写测试用例估计比较容易或者轻松）的工程师是驾驶员，真正执行测试用例的 test libraries 是发动机，那么把驾驶员的意图传动到发动机的就是 Robot Framework，无论是认为他是解释层，胶水层，还是xxx都好，他的作用很明显，你要把握下方向盘，踩踩油门或者刹车，就能运作的很好了，当然记得遵守交规。
-  
 >  robotframework+appium 中的 Appium 就是一个发动机。其实你了解 robotframework 的话，你应该知道他有不同的发动机，比如 Webdriver，比如数据库连接，反正很多就是了。
-  
- > 接着轮到 Appium，Appium 本身可以成为一个自动化框架，也就是说他本身也是一台可以运作的车子（需要 xunit 的支持），你可以使用各种 bindings 来写测试脚本，然后通过 Webdriver protocol 和 Appium Server 交互， Appium Server 则驱动各种driver 去干活。
+> 接着轮到 Appium，Appium 本身可以成为一个自动化框架，也就是说他本身也是一台可以运作的车子（需要 xunit 的支持），你可以使用各种 bindings 来写测试脚本，然后通过 Webdriver protocol 和 Appium Server 交互， Appium Server 则驱动各种driver 去干活。
+
+>上面一堆blabla的说的是什么意思呢，按照我的理解，就是说rf一个基于关键字的自动化测试框架，提供了关键字的方式录入测试用例、rf 框架会去回去解析、管理、并且运行这些case，
+>这个地方要特别注意的一点是RF 跟客户端测试没毛关系，不管是android 、ios 还是pc、h5 ，还是接口测试、web页面测试等等（他提供了关键字的方式录入测试用例、rf 框架会去回去解析、管理、并且运行这些case，没有与任何平台做绑定）
+>但是具体去做事呢，可能需要别的组件来做，比方说我要做客户端测试这时我需要appium ，就需要针对appium 这个库或者组件模块封装rf关键字 提供给脚本编写者使用（如果用appium的话，如果用monkey什么的另说），那我就需要调用appium ，我需要针对appium开发关键字，这个关键字叫技术关键字
+>（关键字是分层的知道吧，不知道的话自己去看哈，我还是说下吧，分高级关键字、低级关键字、和技术关键字,高级关键字是油低级关键字构成，更多描述一个场景，比方说登陆，登陆由打开浏览器、输入用户名密码、提交三个步骤或者关键字组成，技术关键字就是具体实现了）
+>类似这样的一些库，![设计分层](/images/WechatIMG2.jpeg)，要是我没猜错的话，这些库都是给rf 封装关键字的；Appium Library 是封装Appium 库的 rf关键字的，
+ > robotframework-excellib 是 封装excel操作库 rf关键字的、robotframework-seleniumlibrary  是 封装selenium操作库 rf关键字的 （浏览器操作），运行的时候 rf回去解析这些关键字，调用具体的库去做具体的事情，调用appium 去做客户端测试、调用excel去做excel读写，调用selenium 去做浏览器打开、关闭、访问网页或者网页元素；
 *   https://testerhome.com/topics/5131#reply-44405
 
 ######   github上面的一些资料
