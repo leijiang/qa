@@ -17,7 +17,7 @@
  > robotframework-excellib 是 封装excel操作库 rf关键字的、robotframework-seleniumlibrary  是 封装selenium操作库 rf关键字的 （浏览器操作），运行的时候 rf回去解析这些关键字，调用具体的库去做具体的事情，调用appium 去做客户端测试、调用excel去做excel读写，调用selenium 去做浏览器打开、关闭、访问网页或者网页元素；
 *   https://testerhome.com/topics/5131#reply-44405
 
-######   github上面的一些资料
+######   github上面的一些资料 ⭐⭐⭐⭐⭐
 >这个是我看到的整理最全的自动化测试技术图谱,目前在github 上已经有3000多个star了
 *   https://github.com/atinfo/awesome-test-automation/blob/master/python-test-automation.md
 
