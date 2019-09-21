@@ -85,7 +85,7 @@
  
 
 3、最后我们需要使用这些关键字时会在rf中导入__init__.py文件下IflyAppiumLib类，例如我们会在Keywords这个文件夹setting导入Library iFly.IflyAppiumLibrun_on_failure=Capture Page Screenshot。
-
+*   前面一句没啥问题，一般导入也是RID ide 导入，代码带入我没见过，后面一句我不知道你表达什么
 
 #####  **提问：**
 
