@@ -72,8 +72,17 @@
 #####  **我理解的库文件扩展是这样的：**
 
 1、首先我们会在python里的site-packages中创建ifly这个我们需要的自定义扩展库，然后在库文件中定义测试库的版本信息。
+*   理解不是很对，放不放在site-packages下无所谓，site-packages 只是你在python脚本里面去写import 包的时候的一个搜索路径，跟java classpath类似，如果是使用ride导入文件的话放哪一样
 
-2、然后我们会在ifly这个库中创建keywords.py关键字，但是创建好的关键字如果需要在rf中使用，我们必须得创建一个__init__.py文件（这个文件我看了下里面引入了很多其它文件夹，这么做的原因是需要使用这些类是么），而这个文件主要是用于定义自定义库的信息和需要用到的keywords调用继承和声明。
+
+2、然后我们会在ifly这个库中创建keywords.py关键字，但是创建好的关键字如果需要在rf中使用，我们必须得创建一个__init__.py文件（这个文件我看了下里面引入了很多其它文件夹，这么做的原因是需要使用这些类是么）
+，而这个文件主要是用于定义自定义库的信息和需要用到的keywords调用继承和声明。
+*   keywords.py这个文件没用
+*   __init__.py 是申明当前文件夹是作为一个模块的，跟RF本身没关系，python 的语法，申明过后相当于整个文件夹就是个模块（别人可以导入你这个模块了），这里的模块类似java里面jar包
+*   "这个文件我看了下里面引入了很多其它文件夹" 说法不对，import的是要么是模块要么是具体的类，肯定不会是文件夹， `__init__.py 文件在别人import 你的这个模块的时候， __init__.py里面的代码就会执行`,RF会去导入这个模块
+*   "这么做的原因是需要使用这些类是么" 嗯是的，前面说了，"文件主要是用于定义自定义库的信息和需要用到的keywords调用继承和声明" 是的，这个地方会去声明一些类，RF 会去拿到这个申明类下面的所有的方法，类似这样的方法delete_phone_file，然后RF 自动就这个方法生成为一个关键字DELETE PHONE FILE，至于为啥是这个，应该是`约定` 
+*   这是关键字实现代码：[1WechatIMG2](../images/1WechatIMG2.png)，这是RF根据方法描述自动生成的关键字描述文档[1WechatIMG2](../images/1WechatIMG4.png) 
+ 
 
 3、最后我们需要使用这些关键字时会在rf中导入__init__.py文件下IflyAppiumLib类，例如我们会在Keywords这个文件夹setting导入Library iFly.IflyAppiumLibrun_on_failure=Capture Page Screenshot。
 
@@ -81,8 +90,11 @@
 #####  **提问：**
 
 1>在site-packages中的ifly中创建的版本号就是ROBOT_LIBRARY_VERSION = '0.1.0'信息吧？？
+*   不知道你表达的是什么意思，一般在 `__init__.py` 申明扩展关键字的时候加上    `ROBOT_LIBRARY_SCOPE = 'GLOBAL'`  `ROBOT_LIBRARY_VERSION = '0.1.0'` 这两个东西一个是说扩展库的版本和使用范围，`RF框架读取这两个字段` 
+                        
 
 2>在ifly中keywords.py中是空的，这个是空的原因是不是因为在rf中导入Library  iFly.IflyAppiumLib库文件后，keywords是我自己写的那些关键字。
+*   前面说了，关键字是 是根据`__init__.py` 你申明的类的方法自动生成的，并且是按照约定生成， keywords没用
 
 
 话说大爷我这样排版，可以吗？
