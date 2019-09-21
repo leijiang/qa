@@ -81,7 +81,7 @@
 *   __init__.py 是申明当前文件夹是作为一个模块的，跟RF本身没关系，python 的语法，申明过后相当于整个文件夹就是个模块（别人可以导入你这个模块了），这里的模块类似java里面jar包
 *   "这个文件我看了下里面引入了很多其它文件夹" 说法不对，import的是要么是模块要么是具体的类，肯定不会是文件夹， `__init__.py 文件在别人import 你的这个模块的时候， __init__.py里面的代码就会执行`,RF会去导入这个模块
 *   "这么做的原因是需要使用这些类是么" 嗯是的，前面说了，"文件主要是用于定义自定义库的信息和需要用到的keywords调用继承和声明" 是的，这个地方会去声明一些类，RF 会去拿到这个申明类下面的所有的方法，类似这样的方法delete_phone_file，然后RF 自动就这个方法生成为一个关键字DELETE PHONE FILE，至于为啥是这个，应该是`约定` 
-*   这是关键字实现代码：[1WechatIMG2](../images/1WechatIMG2.png)，这是RF根据方法描述自动生成的关键字描述文档[1WechatIMG2](../images/1WechatIMG4.png) 
+*   这是关键字实现代码：![1WechatIMG2](../images/1WechatIMG2.png)，这是RF根据方法描述自动生成的关键字描述文档![1WechatIMG2](../images/1WechatIMG4.png) 
  
 
 3、最后我们需要使用这些关键字时会在rf中导入__init__.py文件下IflyAppiumLib类，例如我们会在Keywords这个文件夹setting导入Library iFly.IflyAppiumLibrun_on_failure=Capture Page Screenshot。
