@@ -65,3 +65,25 @@
 
 
 *   能不能学下markdown ，归档的好乱呀。。
+
+
+
+9月21日：
+#####  **我理解的库文件扩展是这样的：**
+
+1、首先我们会在python里的site-packages中创建ifly这个我们需要的自定义扩展库，然后在库文件中定义测试库的版本信息。
+
+2、然后我们会在ifly这个库中创建keywords.py关键字，但是创建好的关键字如果需要在rf中使用，我们必须得创建一个__init__.py文件（这个文件我看了下里面引入了很多其它文件夹，这么做的原因是需要使用这些类是么），而这个文件主要是用于定义自定义库的信息和需要用到的keywords调用继承和声明。
+
+3、最后我们需要使用这些关键字时会在rf中导入__init__.py文件下IflyAppiumLib类，例如我们会在Keywords这个文件夹setting导入Library iFly.IflyAppiumLibrun_on_failure=Capture Page Screenshot。
+
+
+#####  **提问：**
+
+1>在site-packages中的ifly中创建的版本号就是ROBOT_LIBRARY_VERSION = '0.1.0'信息吧？？
+
+2>在ifly中keywords.py中是空的，这个是空的原因是不是因为在rf中导入Library  iFly.IflyAppiumLib库文件后，keywords是我自己写的那些关键字。
+
+
+话说大爷我这样排版，可以吗？
+
